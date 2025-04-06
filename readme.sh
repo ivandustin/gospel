@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-out=README.txt
+out=README.md
 for dir in $(find * -type d)
 do
 	pushd $dir
