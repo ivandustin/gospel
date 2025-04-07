@@ -1,41 +1,58 @@
 # Gospel
 
-## Project Description
+## Overview
 
-Gospel is an open-source project providing free, modern, and simple translations of the Gospel books. Utilizing state-of-the-art machine translation methods, this project aims to make the scriptures accessible and understandable to a wider audience, without compromising on the integrity of the original texts.
+Gospel is a project dedicated to providing a free, modern, and simple translation of the Gospel books. Utilizing advanced machine translation technology, Gospel aims to make these ancient texts accessible to a wider audience by offering translations in multiple languages. The translations are based on the original Greek texts and are available in English and Filipino.
 
 ## License
 
-This project is licensed under the Public Domain. You are free to use, modify, and distribute the translations without any restrictions.
+This project is released into the public domain, allowing for unrestricted use, distribution, and modification. Feel free to share and adapt the translations as needed.
 
-## Translation Type
+## Translation Methodology
 
-The translations provided are generated using machine translation, specifically by OpenAI's GPT-4o. This cutting-edge technology ensures that the translations are both accurate and readable, maintaining fidelity to the original meanings while presenting the text in a contemporary form. 
+The translations provided in this project are generated using machine translation, specifically by OpenAI's GPT-4o. This approach ensures a consistent and high-quality translation that remains faithful to the original Greek texts.
 
 ## Source Material
 
-The translations are based on Greek sources, with the primary reference being [Living Greek New Testament](https://www.livinggreeknt.org). This ensures that the translations are rooted in authentic and well-preserved text.
+The Greek source texts used for these translations are obtained from [Living Greek New Testament](https://www.livinggreeknt.org). This ensures that the translations are based on reliable and scholarly sources.
 
-## Translated Books
+## Available Books
 
-The following Gospel books have been translated as part of this project:
+The following Gospel books have been translated:
 
 - Matthew
 - Mark
 - Luke
 - John
 
-## Available Languages
+## Languages
 
-Currently, the Gospel translations are available in the following languages:
+The Gospel translations are available in the following languages:
 
 - English
 - Filipino
 
-## Links to Translations
+## Accessing the Translations
 
-Explore the translated texts through the following links:
+The translations can be accessed through the following links:
 
-- [English Translation](en2)
-- [Filipino Translation](fil2)
-- [Greek Source Text](el)
+### English Translations
+
+- [Matthew](/en2/matthew.md)
+- [Mark](/en2/mark.md)
+- [Luke](/en2/luke.md)
+- [John](/en2/john.md)
+
+### Filipino Translations
+
+- [Matthew](/fil2/matthew.md)
+- [Mark](/fil2/mark.md)
+- [Luke](/fil2/luke.md)
+- [John](/fil2/john.md)
+
+### Greek Source Texts
+
+- [Matthew](/el/matthew.md)
+- [Mark](/el/mark.md)
+- [Luke](/el/luke.md)
+- [John](/el/john.md)
