@@ -1,5 +1,5 @@
 project name: Gospel
-description: free modern and simple of translation of the gospel books
+description: free modern and simple translation of the gospel books
 license: public domain
 translation type: machine translation
 translated by: OpenAI GPT 4o
