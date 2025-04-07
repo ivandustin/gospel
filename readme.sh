@@ -1,21 +1,35 @@
 #!/usr/bin/env bash
 set -euo pipefail
-out=README.md
+gospels=(matthew mark luke john)
+for gospel in $gospels
+do
+	rm -f */$gospel.md
+done
 for dir in $(find * -type d)
 do
 	pushd $dir
-	rm -f $out
 	for file in *.txt
 	do
 		stem=${file%.*}
 		parts=(${stem//-/ })
-		book=${parts[0]^}
+		book=${parts[0]}
 		chap=${parts[1]}
 		chap=$((10#$chap))
-		echo "## $book $chap" >> $out
-		echo >> $out
-		addnl < $file >> $out
+		out="$book.md"
+		if [ ! -f $out ]
+		then
+			(
+				echo "# ${book^}"
+				echo
+			) > $out
+		fi
+		(
+			echo "## Chapter $chap"
+			echo
+			addnl < $file
+		) >> $out
 	done
-	stripi $out
 	popd
 done
+stripi */*.md
+doctoc --title "Table of Contents" */*.md

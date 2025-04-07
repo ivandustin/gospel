@@ -36,6 +36,6 @@ Currently, the Gospel translations are available in the following languages:
 
 Explore the translated texts through the following links:
 
-- [English Translation](/en2)
-- [Filipino Translation](/fil2)
-- [Greek Source Text](/el)
+- [English Translation](en2)
+- [Filipino Translation](fil2)
+- [Greek Source Text](el)
