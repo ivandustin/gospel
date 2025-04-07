@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
-set -euo pipefail
-gospels=(matthew mark luke john)
-for gospel in $gospels
-do
-	rm -f */$gospel.md
-done
+set -euvxo pipefail
+rm -f */*.md
 for dir in $(find * -type d)
 do
 	pushd $dir
