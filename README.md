@@ -38,21 +38,21 @@ The translations can be accessed through the following links:
 
 ### English Translations
 
-- [Matthew](/en2/matthew.md)
-- [Mark](/en2/mark.md)
-- [Luke](/en2/luke.md)
-- [John](/en2/john.md)
+- [Matthew](en2/matthew.md)
+- [Mark](en2/mark.md)
+- [Luke](en2/luke.md)
+- [John](en2/john.md)
 
 ### Filipino Translations
 
-- [Matthew](/fil2/matthew.md)
-- [Mark](/fil2/mark.md)
-- [Luke](/fil2/luke.md)
-- [John](/fil2/john.md)
+- [Matthew](fil2/matthew.md)
+- [Mark](fil2/mark.md)
+- [Luke](fil2/luke.md)
+- [John](fil2/john.md)
 
 ### Greek Source Texts
 
-- [Matthew](/el/matthew.md)
-- [Mark](/el/mark.md)
-- [Luke](/el/luke.md)
-- [John](/el/john.md)
+- [Matthew](el/matthew.md)
+- [Mark](el/mark.md)
+- [Luke](el/luke.md)
+- [John](el/john.md)
